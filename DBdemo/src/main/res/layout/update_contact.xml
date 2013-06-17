@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/updateNameText" android:layout_gravity="center" android:layout_margin="10dp"
+            android:hint="Name"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/updatePhoneText" android:layout_gravity="center" android:singleLine="false"
+            android:layout_margin="10dp" android:hint="Phone"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Contact"
+            android:id="@+id/update" android:layout_gravity="center" android:layout_margin="10dp"/>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateListView" android:layout_gravity="left|center_vertical"/>
+</LinearLayout>
